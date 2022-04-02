@@ -8,7 +8,7 @@ const rooms = require('./rooms');;
 const roomclass = require("./room");
 roomclass.init(io);
 
-const PORT = 6969;
+const PORT = 3000;
 const DIR = __dirname + "/frontend/";
 
 app.get('/', (req, res) => {
