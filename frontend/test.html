@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pong test</title>
+    <script src="pong.js"></script>
+    <script>
+        var canvas;
+        var ctx;
+        function init() {
+            canvas = document.getElementById("canvas");
+            ctx = canvas.getContext("2d");
+            start();
+        }
+    </script>
+</head>
+
+<body style="text-align: center; background-color: black;" onload="init()">
+    <canvas id="canvas" style="background-color: black; border: 2px solid white;"></canvas>
+</body>
+
+</html>

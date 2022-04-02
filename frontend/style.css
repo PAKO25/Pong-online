@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title {
+    margin-top: 5%;
+    font-size: 300%;
+}
+.row {
+    display: flex;
+    margin-top: 5%;
+
+  }
+  .column {
+    flex: 50%;
+  }
+button {
+    width: 20%;
+    height: 20%;
+    background-color: aqua;
+    border: 1px solid black;
+}
+input {
+    width: 20%;
+    height: 19%;
+    background-color: aqua;
+    border: 1px solid black;
+    color: black;
+}
+input:focus {
+    background-color: white;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1; /* Firefox */
+    text-align: center; 
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: black;
+    text-align: center; 
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: black;
+    text-align: center; 
+  }
+  
+#game {
+  display: none;
+}
+#waiting {
+  display: none;
+}
